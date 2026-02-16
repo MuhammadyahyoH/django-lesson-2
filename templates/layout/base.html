@@ -42,7 +42,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/reponsive.css' %}">
 </head>
 
-<body id="product-sidebar-left" class="product-grid-sidebar-left">
+<body {% block id %}{% endblock %} {% block class %}{% endblock %}>
 {% include 'layout/header.html' %}
 
 <!-- main content -->
